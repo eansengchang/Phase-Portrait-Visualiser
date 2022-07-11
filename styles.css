@@ -1,0 +1,52 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+input:focus,
+input.form-control:focus,
+textarea:focus,
+textarea.form-control:focus {
+  outline: none !important;
+  outline-width: 0 !important;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+#MainWrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+#InstrumentsWrapper {
+  display: table-cell;
+  padding: 10px;
+  width: 100%;
+  background: #3d3d3d;
+}
+
+#RangeGrid {
+  display: grid;
+}
+
+#errorText {
+  color: red;
+  font-size: 20px;
+}
+
+#updateButton {
+  width: 100px;
+  height: 40px;
+}
+
+textarea {
+  display: block;
+  width: 60%;
+}
+
+p {
+  display: block;
+}
