@@ -31,8 +31,8 @@ function coord2win(coord) {
 }
 
 function setup() {
-  SIZE = 800;
-  let cnv = createCanvas(800, 800);
+  SIZE = windowHeight;
+  let cnv = createCanvas(SIZE, SIZE);
   cnv.style('display', 'block');
   cnv.parent('CanvasWrapper');
   updateCanvas();
